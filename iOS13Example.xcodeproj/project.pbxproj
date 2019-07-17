@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A79AC1F22DF63E4005B3A0F /* AppleSigninButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC1E22DF63E4005B3A0F /* AppleSigninButton.swift */; };
+		4A79AC2122DF6CD8005B3A0F /* DarkModePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2022DF6CD8005B3A0F /* DarkModePageView.swift */; };
+		4A79AC2422DF76CC005B3A0F /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2322DF76CC005B3A0F /* SystemUtils.swift */; };
+		4A79AC2722DF7F57005B3A0F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2622DF7F57005B3A0F /* UIColorExtension.swift */; };
 		4AF5331C22DED32A001172DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331B22DED32A001172DA /* AppDelegate.swift */; };
 		4AF5331E22DED32A001172DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331D22DED32A001172DA /* SceneDelegate.swift */; };
 		4AF5332022DED32A001172DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331F22DED32A001172DA /* ContentView.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		4A79AC1E22DF63E4005B3A0F /* AppleSigninButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSigninButton.swift; sourceTree = "<group>"; };
+		4A79AC2022DF6CD8005B3A0F /* DarkModePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModePageView.swift; sourceTree = "<group>"; };
+		4A79AC2322DF76CC005B3A0F /* SystemUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
+		4A79AC2622DF7F57005B3A0F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4AF5331822DED32A001172DA /* iOS13Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS13Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF5331B22DED32A001172DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF5331D22DED32A001172DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A79AC2222DF7699005B3A0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4A79AC2322DF76CC005B3A0F /* SystemUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4A79AC2522DF7F2E005B3A0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A79AC2622DF7F57005B3A0F /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4AF5330F22DED32A001172DA = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +84,8 @@
 		4AF5331A22DED32A001172DA /* iOS13Example */ = {
 			isa = PBXGroup;
 			children = (
+				4A79AC2522DF7F2E005B3A0F /* Extension */,
+				4A79AC2222DF7699005B3A0F /* Utils */,
 				4AF5333322DEF54C001172DA /* View */,
 				4AF5333022DEF4AB001172DA /* PageView */,
 				4AF5331B22DED32A001172DA /* AppDelegate.swift */,
@@ -87,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				4AF5333122DEF4CD001172DA /* AppleSigninPageView.swift */,
+				4A79AC2022DF6CD8005B3A0F /* DarkModePageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -173,7 +198,10 @@
 			files = (
 				4AF5331C22DED32A001172DA /* AppDelegate.swift in Sources */,
 				4AF5333222DEF4CD001172DA /* AppleSigninPageView.swift in Sources */,
+				4A79AC2422DF76CC005B3A0F /* SystemUtils.swift in Sources */,
+				4A79AC2122DF6CD8005B3A0F /* DarkModePageView.swift in Sources */,
 				4A79AC1F22DF63E4005B3A0F /* AppleSigninButton.swift in Sources */,
+				4A79AC2722DF7F57005B3A0F /* UIColorExtension.swift in Sources */,
 				4AF5331E22DED32A001172DA /* SceneDelegate.swift in Sources */,
 				4AF5332022DED32A001172DA /* ContentView.swift in Sources */,
 				4AF5333522DEF575001172DA /* ZListRowView.swift in Sources */,

@@ -15,6 +15,9 @@ struct ContentView : View {
                 NavigationLink(destination: AppleSigninPageView()) {
                     ZListRowView(title: "Apple Signin", subTitle: "用于展示Apple登录功能")
                 }
+                NavigationLink(destination: DarkModePageView()) {
+                    ZListRowView(title: "Dark Mode", subTitle: "暗黑模式")
+                }
             }.navigationBarTitle(Text("Example"), displayMode: .inline)
         }
     }

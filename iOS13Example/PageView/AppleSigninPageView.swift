@@ -12,11 +12,10 @@ import AuthenticationServices
 struct AppleSigninPageView: View {
     var body: some View {
         VStack {
-            Text("AppleSigninPageView")
             AppleSigninButton()
                 .frame(width: 300, height: 50, alignment: .center)
                 .tapAction(handleLogInWithAppleIDButtonPress)
-        }
+        }.navigationBarTitle(String(describing: type(of: self)))
     }
 }
 
