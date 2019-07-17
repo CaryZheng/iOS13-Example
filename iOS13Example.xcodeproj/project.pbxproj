@@ -13,6 +13,8 @@
 		4AF5332222DED32E001172DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5332122DED32E001172DA /* Assets.xcassets */; };
 		4AF5332522DED32E001172DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5332422DED32E001172DA /* Preview Assets.xcassets */; };
 		4AF5332822DED32E001172DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5332622DED32E001172DA /* LaunchScreen.storyboard */; };
+		4AF5333222DEF4CD001172DA /* AppleSigninPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5333122DEF4CD001172DA /* AppleSigninPageView.swift */; };
+		4AF5333522DEF575001172DA /* ZListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5333422DEF575001172DA /* ZListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4AF5332422DED32E001172DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AF5332722DED32E001172DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF5332922DED32E001172DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF5333122DEF4CD001172DA /* AppleSigninPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSigninPageView.swift; sourceTree = "<group>"; };
+		4AF5333422DEF575001172DA /* ZListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		4AF5331A22DED32A001172DA /* iOS13Example */ = {
 			isa = PBXGroup;
 			children = (
+				4AF5333322DEF54C001172DA /* View */,
+				4AF5333022DEF4AB001172DA /* PageView */,
 				4AF5331B22DED32A001172DA /* AppDelegate.swift */,
 				4AF5331D22DED32A001172DA /* SceneDelegate.swift */,
 				4AF5331F22DED32A001172DA /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				4AF5332422DED32E001172DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AF5333022DEF4AB001172DA /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5333122DEF4CD001172DA /* AppleSigninPageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		4AF5333322DEF54C001172DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5333422DEF575001172DA /* ZListRowView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF5331C22DED32A001172DA /* AppDelegate.swift in Sources */,
+				4AF5333222DEF4CD001172DA /* AppleSigninPageView.swift in Sources */,
 				4AF5331E22DED32A001172DA /* SceneDelegate.swift in Sources */,
 				4AF5332022DED32A001172DA /* ContentView.swift in Sources */,
+				4AF5333522DEF575001172DA /* ZListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

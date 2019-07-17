@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationButton(destination: AppleSigninPageView()) {
+                    ZListRowView(title: "Apple Signin", subTitle: "用于展示Apple登录功能")
+                }
+            }.navigationBarTitle(Text("Example"), displayMode: .inline)
+        }
     }
 }
 
