@@ -12,7 +12,7 @@ struct ContentView : View {
     var body: some View {
         NavigationView {
             List {
-                NavigationButton(destination: AppleSigninPageView()) {
+                NavigationLink(destination: AppleSigninPageView()) {
                     ZListRowView(title: "Apple Signin", subTitle: "用于展示Apple登录功能")
                 }
             }.navigationBarTitle(Text("Example"), displayMode: .inline)

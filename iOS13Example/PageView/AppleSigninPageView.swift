@@ -7,10 +7,40 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
-struct AppleSigninPageView : View {
+struct AppleSigninPageView: View {
     var body: some View {
-        Text("AppleSigninPageView")
+        VStack {
+            Text("AppleSigninPageView")
+            AppleSigninButton()
+                .frame(width: 300, height: 50, alignment: .center)
+                .tapAction(handleLogInWithAppleIDButtonPress)
+        }
+    }
+}
+
+extension AppleSigninPageView {
+    private func handleLogInWithAppleIDButtonPress() {
+        print("handleLogInWithAppleIDButtonPress")
+        
+        let provider = ASAuthorizationAppleIDProvider()
+        let request = provider.createRequest()
+        request.requestedScopes = [.fullName, .email]
+        
+        let controller = MyAuthorizationController(authorizationRequests: [request])
+        controller.performRequests()
+    }
+}
+
+class MyAuthorizationController: ASAuthorizationController {
+    
+    func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
+        print("authorizationController 1")
+    }
+    
+    func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
+        print("authorizationController 2")
     }
 }
 
