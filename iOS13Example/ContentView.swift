@@ -18,6 +18,9 @@ struct ContentView : View {
                 NavigationLink(destination: DarkModePageView()) {
                     ZListRowView(title: "Dark Mode", subTitle: "暗黑模式")
                 }
+                NavigationLink(destination: NewSwiftPageView()) {
+                    ZListRowView(title: "Swift 5.1", subTitle: "用于展示Swift 5.1新特性")
+                }
             }.navigationBarTitle(Text("Example"), displayMode: .inline)
         }
     }

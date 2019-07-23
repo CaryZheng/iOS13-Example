@@ -11,6 +11,7 @@
 		4A79AC2122DF6CD8005B3A0F /* DarkModePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2022DF6CD8005B3A0F /* DarkModePageView.swift */; };
 		4A79AC2422DF76CC005B3A0F /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2322DF76CC005B3A0F /* SystemUtils.swift */; };
 		4A79AC2722DF7F57005B3A0F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79AC2622DF7F57005B3A0F /* UIColorExtension.swift */; };
+		4AC0D44922E6D5B10012C451 /* NewSwiftPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0D44822E6D5B10012C451 /* NewSwiftPageView.swift */; };
 		4AF5331C22DED32A001172DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331B22DED32A001172DA /* AppDelegate.swift */; };
 		4AF5331E22DED32A001172DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331D22DED32A001172DA /* SceneDelegate.swift */; };
 		4AF5332022DED32A001172DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5331F22DED32A001172DA /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		4A79AC2022DF6CD8005B3A0F /* DarkModePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModePageView.swift; sourceTree = "<group>"; };
 		4A79AC2322DF76CC005B3A0F /* SystemUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
 		4A79AC2622DF7F57005B3A0F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4AC0D44822E6D5B10012C451 /* NewSwiftPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwiftPageView.swift; sourceTree = "<group>"; };
 		4AF5331822DED32A001172DA /* iOS13Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS13Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF5331B22DED32A001172DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF5331D22DED32A001172DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				4AF5333422DEF575001172DA /* ZListRowView.swift */,
 				4A79AC1E22DF63E4005B3A0F /* AppleSigninButton.swift */,
+				4AC0D44822E6D5B10012C451 /* NewSwiftPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				4AF5331C22DED32A001172DA /* AppDelegate.swift in Sources */,
 				4AF5333222DEF4CD001172DA /* AppleSigninPageView.swift in Sources */,
+				4AC0D44922E6D5B10012C451 /* NewSwiftPageView.swift in Sources */,
 				4A79AC2422DF76CC005B3A0F /* SystemUtils.swift in Sources */,
 				4A79AC2122DF6CD8005B3A0F /* DarkModePageView.swift in Sources */,
 				4A79AC1F22DF63E4005B3A0F /* AppleSigninButton.swift in Sources */,
